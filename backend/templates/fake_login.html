@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Account Alert</title>
+  <style>
+    body { background-color: #121212; color: #0f0; font-family: monospace; padding: 2rem; }
+    .container { background: #1a1a1a; padding: 20px; border-radius: 8px; }
+    .btn { background: #00ff00; color: #000; padding: 10px 20px; border: none; cursor: pointer; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>⚠️ Unusual Login Attempt Detected</h2>
+    <p>We noticed a login attempt from a new device. For your security, please confirm your identity.</p>
+    <a class="btn" href="{{redirect_url}}">Verify Now</a>
+    <hr>
+    <small>This is a simulated phishing test. Do not enter real credentials.</small>
+  </div>
+</body>
+</html>

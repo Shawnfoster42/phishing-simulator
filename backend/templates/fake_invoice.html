@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invoice Alert</title>
+  <style>
+    body { background-color: #101010; color: #0f0; font-family: monospace; padding: 2rem; }
+    .invoice { border: 1px solid #0f0; padding: 20px; border-radius: 8px; background-color: #1e1e1e; }
+    .btn { background: #00ff00; color: #000; padding: 10px 20px; border: none; cursor: pointer; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="invoice">
+    <h2>📄 New Invoice Available</h2>
+    <p>Dear {{name}}, your invoice for the amount of $3,200 is ready for download.</p>
+    <a class="btn" href="{{redirect_url}}">Download Invoice</a>
+    <p><small>This is a phishing simulation email. Stay alert!</small></p>
+  </div>
+</body>
+</html>
